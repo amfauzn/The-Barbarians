@@ -1,0 +1,11 @@
+[
+	{
+		"name": "No Suicide", // Barbarians Melee
+		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units", "[+15]% Strength when stacked with [Worker]"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
+	},
+	{
+		"name": "Explorer", // Ruins effecr
+		"uniques": ["[+10]% Strength <when defending>", "[+1] Sight"]
+	}
+]

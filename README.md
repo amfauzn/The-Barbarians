@@ -2,12 +2,22 @@
 Barbarians are now stronger and more annoying. Clearing Barbarian encampment grants a random bonus.
 
 # Mechanism
-- Barbarian units are stronger (1.5x for Ancient and Classical, 1.3x for Medieval and Renaissance, 1.2x stronger for the rest)
-- Barbarian units gains Strength bonus when stacked with captured Worker and if within 2 tiles of their camp
-- New unit: Suicider
-- Barbarians melee will never attack cities aka never suicide except Suicider
+- Barbarian units are 50% stronger
+- Barbarian units gains Strength bonus if within 2 tiles of their camp
+- Barbarian melee units gains Strength bonus when stacked with captured Worker and will never attack cities aka never suicide except Suicider
+- Barbarians can produce Scout
+- New unit: Suicider (Barbarians only)
 - Clearing Barbarian encampment grants a random bonus (just like Ancient ruins)
 
-# Credit
-- Art by GeneralWadaling AKA The Bucketeer
-- All icons are taken from the base game
+# Credits
+Art by GeneralWadaling AKA The Bucketeer
+All icons are taken from the base game
+
+# Changelog
+## v1.1
+- Merge The Barbarians mod with Ruins Expanded mod
+- 7 new ruins effects
+- All units are now 1,5x stronger
+- Fix Strength bonus for Barbarian melee unit when stacked with captured Worker
+- Barbarian can produce Scout with 3 Movement
+- Made this mod compatible with almost all other mod
