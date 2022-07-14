@@ -20,7 +20,7 @@
 	{
         "name": "stolen technology",
         "notification": "We succesfully take control of stolen technology! (2 Free Technology)",
-        "uniques": ["[2] Free Technologies", "Only available after [40] turns"],
+        "uniques": ["[1] Free Technologies", "Only available after [40] turns"],
 		"color": "#7f7fff"
     },
 	{

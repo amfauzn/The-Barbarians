@@ -5,7 +5,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [182,0,0],
 		"style": "Barbarians",
-		"uniques": ["Can only heal by pillaging", "[+50]% Strength <for [All] units>", "[Melee] units gain the [No Suicide] promotion", 
+		"uniques": ["Can only heal by pillaging", "[+50]% Strength <for [All] units>", "[{Land} {Melee}] units gain the [No Suicide] promotion", 
 			"[+10]% Strength <within [2] tiles of a [Barbarian encampment]>"]
 	}
 ]

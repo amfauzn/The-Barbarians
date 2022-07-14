@@ -4,7 +4,7 @@
 		"unitType": "Scout",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 5,
+		"strength": 8,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"promotions": ["Ignore terrain cost"],
