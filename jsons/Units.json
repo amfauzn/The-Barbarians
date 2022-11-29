@@ -1,16 +1,16 @@
 [
 	{
-		"name": "Barbarian Scout",
+		"name": "Scout",
 		"unitType": "Scout",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 8,
+		"movement": 2,
+		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
-	/*{
+	{
 		"name": "Wayfarer",
 		"unitType": "Scout",
 		"movement": 2,
@@ -18,10 +18,12 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 25,
-		"uniques": ["Unbuildable", "Invisible to non-adjacent units", "[+1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["Unbuildable", 
+					"Invisible to non-adjacent units", 
+					"[+1] Sight"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},*/
+	},
 	{
 		"name": "Suicider",
 		"unitType": "Armored",
@@ -32,8 +34,10 @@
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "Can only attack [City] units", 
-			"Self-destructs when attacking"],
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", 
+					"Can only attack [City] units", 
+					"Self-destructs when attacking",
+					"Earn [33]% of the damage done to [City] units as [Gold]"],
 		"attackSound": "shot"
 	}
 ]
