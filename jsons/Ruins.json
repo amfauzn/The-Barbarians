@@ -144,7 +144,7 @@
 	{
 		"name": "levied wayfarer",
 		"notification": "A [Wayfarer] has joined us!",
-		"uniques": ["Free [Wayfarer] appears", "Only available <after [40] turns>"],
+		"uniques": ["Free [Wayfarer] appears", "Only available <after [90] turns>"],
 		"color": "#20afe8"
 	},
 	
