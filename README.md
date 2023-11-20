@@ -4,14 +4,14 @@ Barbarians are now stronger and more annoying. Clearing Barbarian encampment gra
 # Fatures
 - Barbarian units are 33% stronger
 - Barbarian units gains Strength bonus if within 2 tiles of their camp
-- Barbarian land melee units gains Strength bonus when stacked with captured Worker and will never attack cities aka never suicide except Suicider
+- Barbarian land units gains Strength bonus when stacked with captured Worker and may pillage without movement cost
 - Barbarians can produce Scout
 - New unit: Suicider (Barbarians only) & Wayfarer
 - Clearing Barbarian encampment grants a random bonus (just like Ancient ruins)
 
 # Credits
-Art by GeneralWadaling AKA The Bucketeer
-All icons are taken from the base game
+Art by GeneralWadaling AKA The Bucketeer and me.
+All icons are taken from the base game.
 
 # Changelog
 ## v1.1
@@ -31,3 +31,8 @@ All icons are taken from the base game
 - Reduce Barbarians strength bonus from +50% to +33%
 - Expand bonus effects
 - New unit: Wayfarer
+
+## v1.4
+- Barbarian land melee units may now attack cities
+- Barbarian land units now gains Strength bonus when stacked with captured Worker and may pillage without movement cost
+- Add HexaRealm unit sprites

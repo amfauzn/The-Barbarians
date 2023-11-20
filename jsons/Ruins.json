@@ -164,7 +164,7 @@
 	{
 		"name": "find a well-drawn map",
 		"notification": "We have found a well-drawn map in the ruins!",
-		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [100]% chance"]
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"]
 	},
 	
 	// Triggerable

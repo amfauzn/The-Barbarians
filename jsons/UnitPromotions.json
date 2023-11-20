@@ -1,10 +1,12 @@
 [
 	{
-		"name": "No Suicide", // Barbarians Land Melee
-		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units", "[+15]% Strength when stacked with [Worker]"],
+		"name": "Barbarian Strength", // Barbarians Land
+		"uniques": ["No movement cost to pillage", 
+					"[+15]% Strength when stacked with [Worker]"],
 	},
 	{
 		"name": "Explorer", // Ruins effecr
-		"uniques": ["[+10]% Strength <when defending>", "[+1] Sight"]
+		"uniques": ["[+10]% Strength <when defending>", 
+					"[+1] Sight"]
 	}
 ]

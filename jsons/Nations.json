@@ -3,13 +3,13 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"innerColor": [185,12,12],
 		"style": "Barbarians",
 		"uniques": ["Can only heal by pillaging", 
 					"[+1] Sight <for [Scout] units>", 
 					"[+33]% Strength <for [All] units>", 
 					"[+1] Movement <for [Scout] units>", 
-					"[{Land} {Melee}] units gain the [No Suicide] promotion", 
+					"[{Military} {Land}] units gain the [Barbarian Strength] promotion", 
 					"[+10]% Strength <within [2] tiles of a [Barbarian encampment]>"]
 	}
 ]
