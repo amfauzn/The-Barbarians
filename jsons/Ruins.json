@@ -15,13 +15,13 @@
 	{
 		"name": "shared cultural inspiration",
 		"notification": "Captured villagers share the secrets of their well-ordered society! (+[cultureAmount] culture)",
-		"uniques": ["Gain [75]-[100] [Culture]", "Only available <after [30] turns>"],
+		"uniques": ["Gain [80]-[120] [Culture]", "Only available <after turn number [35]>"],
 		"color": "#cf8ff7"
 	},
 	{
 		"name": "adopt foreign policy",
 		"notification": "We have discovered a scripture of policy idea, we can now try adopt it!",
-		"uniques": ["Free Social Policy", "Only available <before [70] turns>"],
+		"uniques": ["Free Social Policy", "Only available <before turn number [70]>"],
 		"color": "#cf8ff7"
 	},
 	
@@ -35,13 +35,13 @@
 	{
 		"name": "discover a research note",
 		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
-		"uniques": ["Gain [80]-[100] [Science]", "Only available <after [35] turns>"],
+		"uniques": ["Gain [80]-[120] [Science]", "Only available <after turn number [35]>"],
 		"color": "#7f7fff"
 	},
 	{
 		"name": "stolen technology",
 		"notification": "We are succesfully take control of the stolen technology! (+[scienceAmount] science)",
-		"uniques": ["Gain [100]-[150] [Science]", "Only available <after [50] turns>"],
+		"uniques": ["Gain [140]-[180] [Science]", "Only available <after turn number [50]>"],
 		"color": "#7f7fff"
 	},
 	
@@ -61,13 +61,13 @@
 	{
 		"name": "a stash of gold",
 		"notification": "We have found a stash of [goldAmount] Gold in the ruins!",
-		"uniques": ["Gain [150]-[250] [Gold]"],
+		"uniques": ["Gain [175]-[250] [Gold]"],
 		"color": "#ffeb7f"
 	},
 	{
 		"name": "hit a jackpot",
 		"notification": "Jackpot! (+1000 gold)",
-		"uniques": ["Gain [1000] [Gold]", "Only available <after [75] turns>"],
+		"uniques": ["Gain [1000] [Gold]", "Only available <after turn number [100]>"],
 		"color": "#ffeb7f"
 	},
 	
@@ -75,15 +75,23 @@
 	{
 		"name": "a praying priest",
 		"notification": "A dying priest pray for you! (+[faithAmount] faith)",
-		"uniques": ["Hidden when religion is disabled", "Gain [100]-[250] [Faith]", "Only available <after founding a Pantheon>",
-					"Only available <after [40] turns>"],
+		"uniques": [
+			"Hidden when religion is disabled",
+			"Gain [100]-[250] [Faith]",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [40]>"
+		],
 		"color": "#CDDDF4"
 	},
 	{
 		"name": "a wandering oracle",
 		"notification": "An oracle foresee your future! (+[faithAmount] faith)",
-		"uniques": ["Hidden when religion is disabled", "Gain [250]-[350] [Faith]", "Only available <after founding a Pantheon>",
-					"Only available <after [60] turns>"],
+		"uniques": [
+			"Hidden when religion is disabled",
+			"Gain [250]-[350] [Faith]",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [70]>"
+		],
 		"color": "#CDDDF4"
 	},
 	
@@ -91,7 +99,7 @@
 	{
 		"name": "accepted immigrants (adds 3 population to a city)",
 		"notification": "A family of immigrants saved in the ruins! Population added to [cityName].",
-		"uniques": ["[+3] population [in capital]", "Only available <after [40] turns>"],
+		"uniques": ["[+3] population [in capital]", "Only available <after turn number [50]>"],
 		"color": "#81c784"
 	},
 	
@@ -99,7 +107,7 @@
 	{
 		"name": "free a general",
 		"notification": "Accidentally, we save a former general!",
-		"uniques": ["Free [Great General] found in the ruins", "Only available <after [20] turns>"],
+		"uniques": ["Free [Great General] found in the ruins", "Only available <after turn number [20]>"],
 		"color": "#e89220"
 		"excludedDifficulties": ["Immortal","Deity"]
 	},
@@ -120,13 +128,13 @@
 	{
 		"name": "hell training",
 		"notification": "Your men experience a hellish training!",
-		"uniques": ["This Unit gains [30] XP", "Only available <after [30] turns>"],
+		"uniques": ["This Unit gains [30] XP", "Only available <after turn number [30]>"],
 		"color": "#20afe8"
 	},
 	{
 		"name": "explorer equipment",
 		"notification": "Our unit finds equipments hidden in the ruins!",
-		"uniques": ["This Unit gains the [Explorer] promotion", "Only available <after [20] turns>"],
+		"uniques": ["This Unit gains the [Explorer] promotion", "Only available <after turn number [20]>"],
 		"color": "#20afe8"
 	},
 	{
@@ -138,13 +146,13 @@
 	{
         "name": "levied spearman",
         "notification": "A young [Spearman] has joined us!",
-        "uniques": ["Free [Spearman] appears", "Only available <after [20] turns> <before [150] turns>"],
+        "uniques": ["Free [Spearman] appears", "Only available <after turn number [20]> <before turn number [150]>"],
 		"color": "#20afe8"
     },
 	{
 		"name": "levied wayfarer",
 		"notification": "A [Wayfarer] has joined us!",
-		"uniques": ["Free [Wayfarer] appears", "Only available <after [90] turns>"],
+		"uniques": ["Free [Wayfarer] appears", "Only available <after turn number [90]>"],
 		"color": "#20afe8"
 	},
 	
@@ -153,13 +161,13 @@
 		"name": "reveal nearby Bonus resource",
 		"notification": "You found notes of crop yields area!",
 		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius",
-					"Only available <before [100] turns>"]
+					"Only available <before turn number [100]>"]
 	},
 	{
 		"name": "reveal nearby Luxury resource",
 		"notification": "You found notes of rare and valueable resources!",
 		"uniques": ["Reveal up to [All] [Luxury resource] within a [7] tile radius",
-					"Only available <before [100] turns>"]
+					"Only available <before turn number [100]>"]
 	},
 	{
 		"name": "find a well-drawn map",
@@ -171,7 +179,7 @@
 	{
 		"name": "into era of greatness",
 		"notification": "Solving a potential problem bring us to the era of greatness",
-		"uniques": ["Empire enters golden age", "Only available <after [50] turns>"],
+		"uniques": ["Empire enters golden age", "Only available <after turn number [50]>"],
 		"color": "#cf8ff7"
 	}
 ]

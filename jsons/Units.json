@@ -18,9 +18,12 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 25,
-		"uniques": ["Unbuildable", 
-					"Invisible to non-adjacent units", 
-					"[+1] Sight"],
+		"uniques": [
+			"Unbuildable",
+			"Invisible to non-adjacent units",
+			"[+1] Sight",
+			"Can upgrade to [Gatling Gun]"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -34,10 +37,12 @@
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", 
-					"Can only attack [City] units", 
-					"Self-destructs when attacking",
-					"Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": [
+			"[+400]% Strength <vs cities> <when attacking>",
+			"Can only attack [City] units",
+			"Self-destructs when attacking",
+			"Earn [50]% of the damage done to [City] units as [Gold]"
+		],
 		"attackSound": "shot"
 	}
 ]
